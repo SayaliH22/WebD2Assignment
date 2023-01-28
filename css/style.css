@@ -1,9 +1,9 @@
 @import 'utilities.css';
 :root{
-    --primary:#3DCFD3;
+    --primary:#8aaed1;
     --dark:black;
     --pure:#FFFFFF;
-    --ternary:#898989;
+    --ternary:#615e5e;
     --light:#F2F2F2;
     --secondary:#070606;
 }
@@ -166,7 +166,7 @@ section.about .social a img{
 .section-heading{
    color:var(--secondary); 
    text-align: center;
-   margin-bottom:1rem;
+   margin-bottom: 5rem;
    line-height: 0.5;
 }
 .section-heading span{
@@ -176,14 +176,14 @@ section.about .social a img{
    color:var(--ternary);
    font-family:'Lato', sans-serif;
    margin-bottom:8rem;
-    text-align: center;
+   text-align: center;
 }
 section.services{
     background:var(--light);
 }
 section.services .card-wrapper{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap:2rem;
     grid-row-gap:6rem;
 }
@@ -209,6 +209,30 @@ section.services .card-wrapper .card img{
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
+
+section.services .card-wrapper .card-bvp img{
+    width: 173px;
+    margin-top: -24px;
+
+}
+
+section.services .card-wrapper .card-ashok img{
+    width: 230px;
+
+}
+
+section.services .card-wrapper .card-pvg img{
+    width: 133px;
+    margin-top: -49px;
+
+}
+
+section.services .card-wrapper .card-neu img{
+    margin-top: -27px;
+    width: 150px;
+
+}
+
 section.services .card-wrapper .card h2{
     font-weight: 400;
     font-size: 1.2rem;
@@ -305,7 +329,7 @@ section.work{
 }
 section.work .card-wrapper{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(2,1fr);
     grid-gap:2rem;
 }
 section.work .card-wrapper .card{
@@ -398,7 +422,7 @@ section.blog .card-wrapper .card .card-content a.read-more{
 
 section.contact .card-wrapper{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap:3rem;
 }
 section.contact .card-wrapper .card{
